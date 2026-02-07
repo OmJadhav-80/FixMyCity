@@ -1,76 +1,47 @@
-FixMyCity 
-
+# FixMyCity 🏙️  
 Smart Civic Issue Reporting & Management Platform
 
-FixMyCity is an AI-powered civic engagement platform that connects citizens and government departments to report, track, and resolve city issues such as potholes, garbage overflow, water leakage, broken streetlights, and road damage.
+FixMyCity is an AI-powered civic engagement platform that connects citizens and government departments to report, track, and resolve city problems such as potholes, garbage overflow, water leakage, broken streetlights, traffic signal failures, and road damage.
 
-@ Features
-👤 For Citizens
+---
 
-Post issues with photo/video & location
+## 🚀 Features
 
-Public social-media style feed
+### 👤 For Citizens
+- Post issues with photo/video & location  
+- Social-media style public feed  
+- Live status tracking (Reported → In Progress → Resolved → Verified)  
+- Upvote, comment & share  
+- Notifications on updates  
 
-Live status tracking (Reported → In Progress → Resolved → Verified)
+### 🏛 For Departments
+- AI-based issue categorization  
+- Priority-based task management  
+- Geo heatmaps of problem zones  
+- Task assignment to field teams  
+- SLA tracking & performance analytics  
 
-Upvote, comment & share
+### 🛣 Road Damage Management (Special Module)
+- AI pothole/crack detection from images  
+- Severity scoring  
+- Hotspot mapping  
+- Repair tracking & history  
+- Predictive maintenance insights  
 
-Notifications on updates
+---
 
-🏛 For Departments
+## 🧠 Tech Stack
+- Frontend: React / HTML / CSS / JavaScript  
+- Backend: Node.js + Express / Python Flask  
+- AI: Google Gemini API (Google AI Studio)  
+- Database: MongoDB / Firebase  
+- Maps: Google Maps API  
 
-AI-based issue categorization
+---
 
-Priority management dashboard
+## ⚙️ Installation
 
-Geo heatmaps of problem zones
-
-Task assignment to field teams
-
-SLA tracking & performance analytics
-
-🛣 Road Damage Management (Special Module)
-
-AI pothole/crack detection from images
-
-Severity scoring of road damage
-
-Hotspot mapping
-
-Repair tracking & history
-
-Predictive maintenance insights
-
-#Tech Stack (Example)
-
-Frontend: React / HTML-CSS-JS
-
-Backend: Node.js + Express / Python Flask
-
-AI: Google Gemini API (via Google AI Studio)
-
-Database: MongoDB / Firebase
-
-Maps: Google Maps API
-
-
-📂 Project Structure
-fixmycity/
- ├── backend/
- ├── frontend/
- ├── routes/
- ├── controllers/
- ├── services/
- └── README.md
-
-
-
-📊 Impact
-
-Faster issue resolution
-
-Transparent governance
-
-Safer roads & cleaner cities
-
-Data-driven city planning
+```bash
+git clone https://github.com/OmJadhav-80/FixMyCity.git
+cd fixmycity
+npm install
