@@ -1,0 +1,9 @@
+{
+  "name": "FixMyCity - AI Smart Civic Platform",
+  "description": "A sophisticated smart city platform for citizens to report issues and authorities to manage road damage using AI-powered intelligence.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone",
+    "geolocation"
+  ]
+}
